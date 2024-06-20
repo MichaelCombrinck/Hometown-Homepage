@@ -1,0 +1,93 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+}
+
+img {
+    width: 100px;
+}
+
+.first-section {
+    background-image: url('./images/first-section.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.titles {
+    border-radius: 8px;
+    padding: 40px;
+    background-color: #404E7C;
+}
+
+
+.heading {
+    margin: 0;
+    color: #fff;
+}
+
+.first-section-subheading {
+    color: white;
+}
+
+.second-section {
+    font-size: 30px;
+    color: #404E7C;
+    background-color: #71B48D;
+}
+
+.three-activities-section {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.activities-containers {
+    width: 400px;
+}
+
+.second-section-heading {
+    margin: 0;
+    padding: 40px;
+}
+
+.guide-section {
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.container {
+    width: 500px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    color: #251F47;
+    background-color:#404e7cc9 ;
+    border-radius: 10px;
+    box-shadow: #251F47 ;
+}
+
+.tourist-image {
+    height: 150px;
+    width: 150px;
+}
